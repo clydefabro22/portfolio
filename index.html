@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clyde Macabangon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="mystyle.css" rel="mystyle">
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&display=swap" rel="stylesheet"></head>
+<body>
+    <nav class="nav-wrapper blue">
+        <div class="container">
+          <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Skills</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-links">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Skills</a></li>
+    </ul>
+    
+
+    <main>
+      <div class="row"></div>
+      <div class="row">
+        <div class="col s8 offset-s2">
+          <div class="col s12 m4">
+            <img src="/assets/clydepic.jpeg" alt="" class="responsive-img"> 
+          </div>
+          <div class="col s8">
+            <div class="col s3"></div>
+            <div class="col s9">
+              <div class="row center-align">
+                <h5 class="kantumruy-pro">Clyde Cedrick Macabangon</h5>
+              </div>
+              
+              <div class="row">
+                <h6>I am a Computer Science student currently studying at Ateneo de Davao University</h6>
+              </div>
+            </div>
+            </div>
+            
+        </div>
+      </div>
+      <div class="container">
+        
+      </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+    <script>
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      })
+    </script>
+</body>
+</html>

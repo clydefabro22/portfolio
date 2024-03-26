@@ -1,0 +1,95 @@
+/* #1c1f4c blue
+#00848c blue green  
+#037272 sea green
+#fccf17 yellow
+#fec20f orange
+#edebd9 offwhite
+*/
+
+
+
+@media (max-width: 768px) {
+    .nav-link {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .nav-icon {
+        width: 40px; /* Adjust icon size for smaller screens */
+    }
+
+    .navbar-nav {
+        flex-direction: column; /* Stack the links vertically on smaller screens */
+    }
+
+    .navbar-collapse {
+        justify-content: center; /* Center the navbar items on smaller screens */
+    }
+}
+  
+
+
+/* Text Styles */
+.nav-link,
+.education,
+.about-me,
+.contact-info,
+.header-text {
+    color: rgb(194, 192, 190);
+}
+
+
+.kantumruy-pro {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
