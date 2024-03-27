@@ -1,13 +1,3 @@
-/* #1c1f4c blue
-#00848c blue green  
-#037272 sea green
-#fccf17 yellow
-#fec20f orange
-#edebd9 offwhite
-*/
-
-
-
 @media (max-width: 768px) {
     .nav-link {
         font-size: 16px; /* Adjust font size for smaller screens */
